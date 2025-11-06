@@ -127,6 +127,8 @@ portfolio-website/
     ├── .htaccess              # Server configuration
     └── database.sql           # Database schema (optional)
 
+```
+
 ## ✨ Key Features
 
 ### 🎨 User Experience
@@ -152,7 +154,7 @@ portfolio-website/
 ### Development Environment Setup
 
 ```bash
-# Clone repository
+ Clone repository
 git clone https://github.com/LalitPatil05/portfolio-website.git
 cd portfolio-website
 
@@ -160,3 +162,4 @@ cd portfolio-website
 # 1. Place project in htdocs/www directory
 # 2. Start Apache & MySQL services
 # 3. Access via http://localhost/portfolio-website
+```
