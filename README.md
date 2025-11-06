@@ -13,76 +13,88 @@
 
 **Live Demo:** 🌐 [lalitportfolio.kesug.com](https://lalitportfolio.kesug.com)  
 **Hosting Provider:** 🚀 InfinityFree  
-**Project Status:** ✅ Production Ready
+**Project Status:** ✅ Production Ready  
 
 </div>
 
+---
+
 ## 🎖 Project Overview
 
-This is a **professional-grade portfolio website** built from scratch to demonstrate modern web development practices. The project serves as a comprehensive showcase of full-stack development skills, featuring a responsive design, interactive elements, and a robust backend architecture.
+This is a **professional-grade portfolio website** built from scratch to demonstrate modern web development practices.  
+The project showcases **full-stack development expertise**, featuring responsive design, smooth animations, modular code, and a simple PHP-based content management system.
 
+---
 
 ## 🚀 Live Demo
 
-**Production Environment:**  
-🔗 **Primary URL**: [https://lalitportfolio.kesug.com](https://lalitportfolio.kesug.com)  
-🌍 **Hosting Provider**: InfinityFree (Free PHP Hosting)  
-⚡ **Uptime**: 99.9% (Monitored)
+| Environment | URL | Hosting | Uptime |
+|--------------|-----|----------|---------|
+| **Production** | [https://lalitportfolio.kesug.com](https://lalitportfolio.kesug.com) | InfinityFree | ⚡ 99.9% |
+
+---
 
 ## 🎯 Project Objectives
 
 ### Primary Goals
-1. **Professional Identity** - Create a compelling digital identity that reflects modern development standards
-2. **Skill Demonstration** - Showcase proficiency in full-stack web development technologies
-3. **User Experience** - Deliver an intuitive, engaging, and accessible browsing experience
-4. **Technical Excellence** - Implement industry best practices in code structure and performance
+1. **Professional Identity** — Create a compelling digital presence aligned with modern development standards  
+2. **Skill Demonstration** — Exhibit expertise in front-end and back-end web technologies  
+3. **User Experience** — Deliver an intuitive, engaging, and accessible browsing experience  
+4. **Technical Excellence** — Follow best practices in code structure, optimization, and maintainability  
 
 ### Success Metrics
-- ✅ **Performance**: Google Lighthouse Score > 90
-- ✅ **Responsiveness**: Flawless functionality across all device sizes
-- ✅ **Accessibility**: WCAG 2.1 AA compliance
-- ✅ **SEO Optimization**: Proper meta structure and semantic HTML
+- ✅ **Performance**: Google Lighthouse Score > 90  
+- ✅ **Responsiveness**: Works flawlessly across devices  
+- ✅ **Accessibility**: WCAG 2.1 AA compliance  
+- ✅ **SEO Optimization**: Semantic HTML & structured metadata  
+
+---
 
 ## 🛠 Technology Stack
 
-### Frontend Development
+### 🧩 Frontend Development
 | Technology | Version | Purpose |
-|------------|---------|---------|
+|-------------|----------|----------|
 | **HTML5** | Latest | Semantic structure & accessibility |
-| **CSS3** | Latest | Modern styling with CSS Grid & Flexbox |
-| **JavaScript** | ES6+ | Interactive functionality & animations |
-| **Bootstrap** | 5.3.0 | Responsive framework & components |
-| **Font Awesome** | 6.4.0 | Professional iconography |
+| **CSS3** | Latest | Modern styling using Grid & Flexbox |
+| **JavaScript** | ES6+ | Interactivity & animations |
+| **Bootstrap** | 5.3+ | Responsive UI framework |
+| **Font Awesome** | 6.4 | Professional iconography |
 
-### Backend Development
-| Technology | Version | Implementation |
-|------------|---------|----------------|
-| **PHP** | 7.4+ | Server-side logic & form processing |
-| **MySQL** | 5.6+ | Database management (Optional) |
-| **Apache** | 2.4+ | Web server configuration |
+### ⚙️ Backend Development
+| Technology | Version | Purpose |
+|-------------|----------|----------|
+| **PHP** | 7.4+ | Server-side logic & dynamic content |
+| **MySQL** | 5.6+ | Database storage (optional) |
+| **Apache** | 2.4+ | Local/production web server |
 
-### Development Tools
+### 🧰 Development Tools
 | Tool | Purpose |
-|------|---------|
+|------|----------|
 | **AOS Library** | Scroll-triggered animations |
-| **Git** | Version control & collaboration |
-| **VS Code** | Primary development environment |
-| **Chrome DevTools** | Debugging & performance analysis |
+| **Git** | Version control |
+| **VS Code** | Primary development IDE |
+| **Chrome DevTools** | Debugging & performance optimization |
 
-### Hosting & Deployment
-| Service | Role |
-|---------|------|
+### 🌍 Hosting & Deployment
+| Service | Purpose |
+|----------|----------|
 | **InfinityFree** | Production hosting environment |
 | **FileZilla** | FTP client for deployment |
-| **cPanel** | Server management interface |
+| **cPanel** | Server management & configuration |
 
+---
+
+## 📁 Project Architecture
+
+```bash
 portfolio-website/
 ├── 🏠 Frontend Pages
 │   ├── index.php              # Landing page with hero section
 │   ├── about.php              # Professional background & skills
 │   ├── projects.php           # Project portfolio showcase
 │   ├── contact.php            # Client communication interface
-│   └── 404.php                # Custom error handling
+│   └── 404.php                # Custom error page
 │
 ├── 🔧 Core Infrastructure
 │   ├── includes/
@@ -90,22 +102,22 @@ portfolio-website/
 │   │   ├── footer.php         # Unified footer template
 │   │   └── config.php         # Application configuration
 │   └── admin/
-│       ├── login.php          # Administrative access
+│       ├── login.php          # Admin access
 │       └── dashboard.php      # Content management
 │
 ├── 🎨 Asset Management
 │   └── assets/
 │       ├── css/
-│       │   ├── style.css      # Core styling system
-│       │   ├── animations.css # Motion design system
+│       │   ├── style.css      # Core styling
+│       │   ├── animations.css # Animation styles
 │       │   └── error.css      # Error page styling
 │       ├── js/
-│       │   ├── main.js        # Primary functionality
-│       │   ├── animations.js  # Interactive animations
-│       │   └── error.js       # Error handling logic
+│       │   ├── main.js        # Core functionality
+│       │   ├── animations.js  # Animation logic
+│       │   └── error.js       # Error handling
 │       └── images/
-│           ├── profile/       # Personal branding assets
-│           └── projects/      # Project visual assets
+│           ├── profile/       # Personal branding images
+│           └── projects/      # Project images
 │
 ├── 📚 Documentation
 │   ├── README.md              # Project documentation
@@ -113,7 +125,8 @@ portfolio-website/
 │
 └── 🔐 Configuration
     ├── .htaccess              # Server configuration
-    └── database.sql           # Database schema (Optional)
+    └── database.sql           # Database schema (optional)
+
 
 
 ## ✨ Key Features
@@ -149,3 +162,8 @@ cd portfolio-website
 # 1. Place project in htdocs/www directory
 # 2. Start Apache & MySQL services
 # 3. Access via http://localhost/portfolio-website
+
+### 📜 License
+
+This project is licensed under the MIT License — see the LICENSE
+ file for details
