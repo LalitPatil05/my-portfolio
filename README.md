@@ -21,11 +21,6 @@
 
 This is a **professional-grade portfolio website** built from scratch to demonstrate modern web development practices. The project serves as a comprehensive showcase of full-stack development skills, featuring a responsive design, interactive elements, and a robust backend architecture.
 
-### 🎯 Business Value
-- **Professional Branding**: Establishes a strong digital presence
-- **Project Showcase**: Demonstrates technical capabilities through real projects
-- **Client Engagement**: Facilitates professional connections through integrated contact systems
-- **Career Advancement**: Serves as a dynamic resume for employment opportunities
 
 ## 🚀 Live Demo
 
@@ -81,6 +76,7 @@ This is a **professional-grade portfolio website** built from scratch to demonst
 | **FileZilla** | FTP client for deployment |
 | **cPanel** | Server management interface |
 
+'''
 ## 📁 Project Architecture
 
 portfolio-website/
@@ -117,10 +113,7 @@ portfolio-website/
 ├── 📚 Documentation
 │ ├── README.md # Project documentation
 │ └── LICENSE # MIT License
-│
-└── 🔐 Configuration
-├── .htaccess # Server configuration
-└── database.sql # Database schema (Optional)
+'''
 
 
 ## ✨ Key Features
