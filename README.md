@@ -76,44 +76,44 @@ This is a **professional-grade portfolio website** built from scratch to demonst
 | **FileZilla** | FTP client for deployment |
 | **cPanel** | Server management interface |
 
-'''
-## 📁 Project Architecture
-
 portfolio-website/
 ├── 🏠 Frontend Pages
-│ ├── index.php # Landing page with hero section
-│ ├── about.php # Professional background & skills
-│ ├── projects.php # Project portfolio showcase
-│ ├── contact.php # Client communication interface
-│ └── 404.php # Custom error handling
+│   ├── index.php              # Landing page with hero section
+│   ├── about.php              # Professional background & skills
+│   ├── projects.php           # Project portfolio showcase
+│   ├── contact.php            # Client communication interface
+│   └── 404.php                # Custom error handling
 │
 ├── 🔧 Core Infrastructure
-│ ├── includes/
-│ │ ├── header.php # Unified header template
-│ │ ├── footer.php # Unified footer template
-│ │ └── config.php # Application configuration
-│ └── admin/
-│ ├── login.php # Administrative access
-│ └── dashboard.php # Content management
+│   ├── includes/
+│   │   ├── header.php         # Unified header template
+│   │   ├── footer.php         # Unified footer template
+│   │   └── config.php         # Application configuration
+│   └── admin/
+│       ├── login.php          # Administrative access
+│       └── dashboard.php      # Content management
 │
 ├── 🎨 Asset Management
-│ └── assets/
-│ ├── css/
-│ │ ├── style.css # Core styling system
-│ │ ├── animations.css # Motion design system
-│ │ └── error.css # Error page styling
-│ ├── js/
-│ │ ├── main.js # Primary functionality
-│ │ ├── animations.js # Interactive animations
-│ │ └── error.js # Error handling logic
-│ └── images/
-│ ├── profile/ # Personal branding assets
-│ └── projects/ # Project visual assets
+│   └── assets/
+│       ├── css/
+│       │   ├── style.css      # Core styling system
+│       │   ├── animations.css # Motion design system
+│       │   └── error.css      # Error page styling
+│       ├── js/
+│       │   ├── main.js        # Primary functionality
+│       │   ├── animations.js  # Interactive animations
+│       │   └── error.js       # Error handling logic
+│       └── images/
+│           ├── profile/       # Personal branding assets
+│           └── projects/      # Project visual assets
 │
 ├── 📚 Documentation
-│ ├── README.md # Project documentation
-│ └── LICENSE # MIT License
-'''
+│   ├── README.md              # Project documentation
+│   └── LICENSE                # MIT License
+│
+└── 🔐 Configuration
+    ├── .htaccess              # Server configuration
+    └── database.sql           # Database schema (Optional)
 
 
 ## ✨ Key Features
